@@ -11,7 +11,7 @@ class FileController extends Controller
 {
     public function update() {
         return response()->json([
-            'data' => File::all()
+            'data' => File::all()->sortByDesc('created_at')->take(10)
         ], 200);
     }
 
