@@ -1,0 +1,8 @@
+2021/07/20 11:05:44 [notice] 1#1: using the "epoll" event method
+2021/07/20 11:05:44 [notice] 1#1: nginx/1.21.1
+2021/07/20 11:05:44 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/07/20 11:05:44 [notice] 1#1: OS: Linux 4.15.0-142-generic
+2021/07/20 11:05:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/20 11:05:44 [notice] 1#1: start worker processes
+2021/07/20 11:05:44 [notice] 1#1: start worker process 30
+2021/07/20 11:05:44 [notice] 1#1: start worker process 31
