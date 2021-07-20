@@ -26,5 +26,6 @@ RUN npm install
 RUN groupadd -g 1000 www
 RUN useradd -u 1000 -ms /bin/bash -g www www
 USER www
+
 CMD ["npm", "run", "dev"]
 CMD ["php-fpm"]
