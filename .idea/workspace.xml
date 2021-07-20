@@ -122,7 +122,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="419">
-                <caret line="46" column="67" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="67" />
+                <caret line="46" column="79" selection-start-line="46" selection-start-column="79" selection-end-line="46" selection-end-column="79" />
               </first_editor>
               <second_editor />
             </state>
@@ -416,7 +416,7 @@
       <option name="presentableId" value="Default" />
       <updated>1626769577239</updated>
       <workItem from="1626769579326" duration="284000" />
-      <workItem from="1626769897323" duration="15986000" />
+      <workItem from="1626769897323" duration="16034000" />
     </task>
     <task id="LOCAL-00001" summary="add README.md">
       <created>1626781263915</created>
@@ -481,11 +481,18 @@
       <option name="project" value="LOCAL" />
       <updated>1626785805481</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add picture">
+      <created>1626786090785</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1626786090785</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16270000" />
+    <option name="totallyTimeSpent" value="16318000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1440" height="904" extended-state="6" />
@@ -497,10 +504,10 @@
       <window_info anchor="bottom" id="Run" order="3" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32988358" />
       <window_info id="npm" order="2" sideWeight="0.5010267" side_tool="true" weight="0.25322813" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.35058215" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.35058215" />
       <window_info anchor="right" id="Remote Host" order="3" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.32903227" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989733" visible="true" weight="0.205165" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989733" visible="true" weight="0.205165" />
       <window_info anchor="bottom" id="Docker" order="8" weight="0.32858992" />
       <window_info anchor="right" id="Database" order="4" weight="0.32998565" />
       <window_info id="Structure" order="1" sideWeight="0.5010267" side_tool="true" weight="0.25322813" />
@@ -526,7 +533,8 @@
     <MESSAGE value="update FileController" />
     <MESSAGE value="update README.md" />
     <MESSAGE value="correct scripts" />
-    <option name="LAST_COMMIT_MESSAGE" value="correct scripts" />
+    <MESSAGE value="add picture" />
+    <option name="LAST_COMMIT_MESSAGE" value="add picture" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/database/migrations/2021_07_20_082847_create_files_table.php">
@@ -781,7 +789,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="419">
-            <caret line="46" column="67" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="67" />
+            <caret line="46" column="79" selection-start-line="46" selection-start-column="79" selection-end-line="46" selection-end-column="79" />
           </first_editor>
           <second_editor />
         </state>

@@ -44,4 +44,4 @@
 <p>После чего нужно будет запустить скрипт scripts/after.sh (только для Linux)</p>
 <p>Проект будет доступен по адресу 0.0.0.0:9081</p>
 <p>скриншот:</p>
-<img src="https://github.com/andrusha10t500/sipprojects/picture.jpg">
+<img src="https://github.com/andrusha10t500/sipprojects/blob/master/picture.jpg">
