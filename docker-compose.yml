@@ -17,22 +17,6 @@ services:
     networks:
       - app-network
 
-#  frontend:
-#    container_name: frontend
-#    build:
-#      context: .
-#      dockerfile: Dockerfile-frontend
-#    networks:
-#      - app-network
-#    image: node:alpine
-#    working_dir: /home/node/app
-#    volumes:
-#      - ./backend/resources/js:/home/node/app
-#    environment:
-#      NODE_ENV: development
-#    command: "npm run serve"
-
-
   #Nginx Service
   webserva:
     container_name: webserv
