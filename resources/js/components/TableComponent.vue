@@ -11,7 +11,7 @@
                 <tr>
                     <td>{{ file['id'] }}</td>
 
-                    <td><a v-bind:href="file['link']" >{{ file['link'] }}</a> </td>
+                    <td><a v-bind:href="currentHostname(file['link'])" >{{ currentHostname(file['link']) }}</a> </td>
 
                     <td>{{ file['size'] }}</td>
 
@@ -28,6 +28,7 @@
         data()  {
             return {
                 files : null,
+                currentHost : null
             }
         },
         created() {
@@ -43,6 +44,10 @@
                     .catch(error => {
                         console.log(error.message);
                     })
+            },
+            currentHostname(link) {
+                link = location.href + link.substr(link.indexOf('storage'));
+                return link;
             }
         }
     }

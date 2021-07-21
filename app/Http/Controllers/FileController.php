@@ -23,7 +23,6 @@ class FileController extends Controller
         Storage::disk('public')->put(trim($file->getClientOriginalName()), newFile::get($file));
 
         $url = Storage::disk('public')->url($file->getClientOriginalName());
-        $url = str_replace('localhost', 'localhost:9081', $url);
         $model->link = $url;
         $model->size = round($file->getSize()/1024, 2). " KB";
         $model->save();
