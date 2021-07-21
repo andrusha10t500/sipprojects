@@ -65,5 +65,8 @@ return [
         ],
 
     ],
+    'links' => [
+        storage_path('storage') => storage_path('app/storage')
+    ]
 
 ];

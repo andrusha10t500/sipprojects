@@ -13,6 +13,7 @@ services:
       - "9000:9000"
     volumes:
       - ./:/var/www/laravel
+      - ./storage/app/public:/var/www/laravel/public/storage
     networks:
       - app-network
 
